@@ -266,30 +266,36 @@
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ###################################################################################################################################### */
 /* Start media for width: 790px */
 @media (max-width: 790px) {
-  /*Start NavBar section */
-  ul li a {
-    padding: 8px;
-    text-align: center;
-    font-size: 12px;
-  }
-  .Labels-NavBar {
-    width: 270px;
-  }
-  ul .contact-us a {
-    width: 70px;
-    padding: 8px 16px;
-  }
-  .call-Nav p span {
-    font: 300 10px/10px "Inter", sans-serif;
-    text-align: start;
-  }
-  /*End NavBar section */
   /* ###################################################################################################################################### */
+  h1,
+  h2 {
+    font-size: medium !important;
+  }
+  p {
+    font-size: small !important;
+  }
+  /* NAVBAR */
+  ul.ul-NavBar li a {
+    display: block;
+    padding: 8px 5px;
+    color: white;
+    text-decoration: none;
+    font: 400 13px/21px "Inter", sans-serif;
+  }
+  ul.ul-NavBar .contact-us a {
+    text-align: center;
+    padding: 8px 0px;
+  }
+  ul.ul-NavBar {
+    gap: 0px;
+  }
+  .call-Nav {
+    width: 200px;
+  }
   /* Start section 1 solar-panels-meadow-1 */
   .solar-panels-meadow-1 {
     max-width: 770px;
     height: 250px;
-    font: 300 10px "Inter", sans-serif;
   }
   .div-line {
     width: 190.83px;
@@ -309,7 +315,7 @@
     top: 25px;
   }
   .solar-panels-meadow-1 article h1 {
-    font: 500 22px/62px "Inter", sans-serif;
+    font: 500 22px/12px "Inter", sans-serif;
   }
   .solar-panels-meadow-1 article p {
     width: 250px;
@@ -330,7 +336,6 @@
   .section-2 {
     flex-direction: column;
     max-width: 770px;
-    width: 650px;
     height: 612px;
   }
   .section-2 article:first-child {
@@ -338,8 +343,9 @@
     height: 310px;
   }
   .section-2-prag {
-    width: 75%;
+    width: 100%;
     gap: 0px;
+    padding: 0px 0px 0px 10px;
   }
   .section-2-prag h2 {
     width: 100%;
@@ -348,7 +354,7 @@
     letter-spacing: -1px;
   }
   .section-2-prag p {
-    width: 494px;
+    width: 400px;
     height: 115px;
     font: 400 15px "Inter", sans-serif;
   }
@@ -374,7 +380,7 @@
     top: 155px;
   }
   .section-2-images p {
-    font: 400 10px/10px "inter", sans-serif;
+    font: 400 9px / 10px "inter", sans-serif !important;
     width: 136px;
   }
   .edit-i {
@@ -393,15 +399,14 @@
     max-width: 770px;
   }
   .section-3-content {
-    padding: 120px 0px 0px 49px;
     color: #000;
   }
   .section-3-content h2 {
-    font: 600 28px "inter", sans-serif;
+    width: 200px;
   }
   .section-3-content p {
     align-items: center;
-    width: 378px;
+    width: 330px;
   }
   /* ###################################################################################################################################### */
   /* Starting section-4 */
@@ -418,11 +423,20 @@
   }
   /* ###################################################################################################################################### */
   /* Setion-5 */
+  .section-5-image article {
+    max-width: 858px;
+    height: fit-content;
+    padding: 0px 0px;
+    gap: 0px;
+  }
   .section-5-image article p {
     color: #fff;
-    width: 470px;
+    width: 100%;
     height: 180px;
-    font: 500 18px/28px "inter";
+    font: 500 18px / 20px "inter";
+  }
+  .section-5-image article h2 {
+    width: 100%;
   }
   /* ###################################################################################################################################### */
   /* Section 6 */
@@ -434,6 +448,14 @@
   .section-7 {
     height: 1120px;
   }
+  .section-7 article:first-child h2 {
+    width: 100%;
+  }
+  .section-7 article:first-child p {
+    width: 100%;
+    height: 45px;
+  }
+
   /* ###################################################################################################################################### */
   /* section 8 */
   .section-8 {
@@ -461,10 +483,25 @@
     width: 134px;
     font: 400 13px/19px "inter";
   }
+  .section-8 .leftCard h2 {
+    color: #1c1c1c;
+    width: 400px;
+    /* height: 128px; */
+    /* font: 700 48px / 64px "inter"; */
+  }
   /* ###################################################################################################################################### */
   /* Footer Section 1 Styles */
   .footer-secion-2 input {
     width: 206px;
+  }
+  .footer-section-1 ul li {
+    font-size: 10px;
+  }
+  footer hr {
+    width: 175px;
+  }
+  .footer-section-3 {
+    width: 100%;
   }
 }
 /* End media for width: 650px */
