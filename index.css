@@ -1,0 +1,810 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 1442px;
+  width: 100%;
+  font-family: "inter", sans-serif;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+main {
+  margin: 0px 0px 25px 0;
+}
+ul {
+  list-style: none;
+}
+/* ###################################################################################################################################### */
+/* ###################################################################################################################################### */
+
+/* Navbar Styles */
+.NavBar-section {
+  max-width: 1442px;
+  width: 100%;
+  height: 86px;
+  background-color: #0b9586;
+  color: white;
+  padding: 0 16px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Logo {
+  width: 157px;
+}
+
+.Labels-NavBar {
+  margin: 0;
+}
+
+ul.ul-NavBar {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+ul.ul-NavBar li {
+  display: inline;
+}
+
+ul.ul-NavBar li a {
+  display: block;
+  padding: 8px 20px;
+  color: white;
+  text-decoration: none;
+  font: 400 18px/21px "Inter", sans-serif;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, border-bottom 0.3s ease,
+    font-weight 0.3s ease;
+}
+
+ul.ul-NavBar .contact-us a {
+  padding: 8px 30px;
+}
+
+ul.ul-NavBar li a:hover {
+  background-color: #018677;
+  cursor: pointer;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.349);
+  font-weight: 600;
+}
+
+ul.ul-NavBar li:first-child a {
+  background-color: #018677;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.349);
+  font-weight: 600;
+}
+
+.call-Nav {
+  text-align: end;
+}
+
+.call-Nav p {
+  font: 400 18px/21px "Inter", sans-serif;
+  margin: 0;
+}
+
+.call-Nav p span {
+  font: 700 22px/28px "Inter", sans-serif;
+}
+
+/* ###################################################################################################################################### */
+/* Section 1 Header Section:  Solar Panels Meadow */
+.solar-panels-meadow-1 {
+  display: flex;
+  flex-direction: column;
+  max-width: 1442px;
+  width: 100%;
+  height: 650px;
+  background: url("image/solar-panels-meadow 1.png") center/cover no-repeat;
+  color: white;
+  font: 400 18px/20px "inter";
+  letter-spacing: 0.94px;
+}
+.solar-panels-meadow-1 article {
+  display: flex;
+  flex-direction: column;
+  width: 729px;
+  height: 305px;
+  gap: 25px;
+  position: relative;
+  top: 155px;
+  left: 150px;
+}
+.solar-panels-meadow-1 article h1 {
+  font: 600 52px/62px "inter";
+}
+.solar-panels-meadow-1 article p {
+  font: 400 20px/1.5 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 30px;
+  margin: 20px 0;
+}
+.button-group {
+  display: flex;
+  width: 405px;
+  height: 41px;
+  gap: 10px;
+}
+.solar-panels-meadow-1 article button:first-child {
+  background-color: #3cab90;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.solar-panels-meadow-1 article button:last-child {
+  background-color: #ffbb1c;
+  color: #000;
+}
+.solar-panels-meadow-1 article button:first-child:hover {
+  background-color: #005f47;
+  cursor: pointer;
+}
+.solar-panels-meadow-1 article button:last-child:hover {
+  background-color: #bd8502;
+  cursor: pointer;
+}
+.button-Style {
+  border-radius: 109px;
+  padding: 12px 34px;
+  font: 400 13px/16px "inter";
+
+  border: none;
+}
+.div-line {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  width: 332.83px;
+  height: 24.77px;
+  top: 90.93px;
+  left: 150px;
+}
+.line-sectio1 {
+  position: relative;
+  display: inline-block;
+  width: 220.59px;
+  height: 2px;
+  border-radius: 2px;
+  background: #575757;
+  border: solid #575757;
+}
+.line-sectio1::before {
+  content: "";
+  position: absolute;
+  width: 89.01px;
+  border-radius: 2px;
+  background: #fff;
+  border: solid #fff;
+  top: -3px;
+  left: -2px;
+}
+/* ###################################################################################################################################### */
+/* Section 2: Image Inside Image */
+.section-2 {
+  display: flex;
+  max-width: 1140px;
+  width: 100%;
+  height: 712px;
+  gap: 50px;
+  margin: 0px auto;
+  padding: 80px 0 0 0;
+}
+.section-2 article:first-child {
+  display: flex;
+  flex-direction: column;
+  width: 594px;
+  height: 476px;
+  gap: 40px;
+}
+.section-2-prag {
+  display: flex;
+  flex-direction: column;
+  width: 594px;
+  gap: 30px;
+  height: 270px;
+}
+.section-2-prag h2 {
+  color: #101828;
+  width: 594px;
+  height: 102px;
+  font: 600 42px/50px "inter";
+  letter-spacing: -2px;
+}
+.section-2-prag p {
+  color: #475467;
+  width: 594px;
+  height: 144px;
+  gap: 40px;
+  font: 400 16px/24px "inter";
+}
+.section-2-bottom-section {
+  display: flex;
+  flex-direction: column;
+  width: 498px;
+  height: 156px;
+  gap: 10px;
+}
+.section-2-bottom-section p {
+  font: 600 20px/30px "inter";
+  color: #101828;
+}
+.section-2-bottom-section span {
+  width: 35px;
+  height: 23px;
+  color: #84bd3a;
+  font: 700 20px/23px "inter";
+  letter-spacing: 4px;
+}
+.section-2-images {
+  background: url("image/Rectangle\ 30.png") no-repeat;
+  width: 523px;
+  height: 552px;
+  border-radius: 12px;
+}
+.image-chiled {
+  position: relative;
+  width: 266px;
+  height: 208px;
+  background-color: #ffb300;
+  top: 300px;
+  left: -50px;
+  border-radius: 12px;
+}
+.edit-i {
+  background: url("image/solar-panel.png") no-repeat center;
+  background-size: cover;
+  margin: 10px;
+  width: 90px;
+  height: 90px;
+  font-size: 90px;
+  padding: 18px;
+  display: inline-block;
+}
+.section-2-images p {
+  width: 266px;
+  height: 42px;
+  text-align: center;
+  font: 400 18px/20px "inter";
+}
+/* ###################################################################################################################################### */
+
+/* Section-3:Power that Doesn't Cost the Earth */
+.section-3-image {
+  background: url("image/8116\ 1.png");
+  max-width: 1440px;
+  height: 505px;
+  width: 100%;
+}
+.section-3-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 678px;
+  height: 212px;
+  gap: 32px;
+  padding: 70px 0 0 100px;
+  color: white;
+}
+.section-3-content h2 {
+  width: 678px;
+  height: 51px;
+  font: 600 42px/50px "inter";
+  letter-spacing: -2px;
+}
+.section-3-content p {
+  width: 678px;
+  height: 56px;
+  font: 500 20px/28px "inter";
+}
+.section-3-content button {
+  width: 173px;
+  height: 41px;
+  background-color: #ffbb1c;
+}
+.section-3-content button:hover {
+  cursor: pointer;
+  width: 173px;
+  height: 41px;
+  background-color: #ffb300;
+}
+/* ###################################################################################################################################### */
+
+/*  Section 4 :Solar Kits  */
+.section-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 777px;
+  gap: 50px;
+  padding: 80px 0px;
+}
+.section-4-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 936px;
+  height: 123px;
+  gap: 24px;
+}
+.section-4-content h2 {
+  color: #101828;
+  height: 51px;
+  text-align: center;
+  font: 600 42px/50px "inter";
+  letter-spacing: -2px;
+}
+.section-4-content p {
+  color: #475467;
+  height: 48px;
+  text-align: center;
+  font: 400 16px/24px "inter";
+}
+
+.section-4-cardGroup {
+  display: flex;
+  width: 1140px;
+  height: 454px;
+  gap: 32px;
+}
+
+.section-4-cardGroup div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 358.67px;
+  padding: 5px;
+  height: 454px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.section-4-cardGroup h2 {
+  color: #101828;
+  width: 318.67px;
+  height: 30px;
+  font: 600 20px/30px "inter";
+}
+.section-4-cardGroup p {
+  color: #475467;
+  width: 318.67px;
+  height: 72px;
+  font: 400 16px/24px "inter";
+}
+
+.section-4-cardGroup button {
+  color: #3cab90;
+  background: none;
+  border: none;
+  width: 147px;
+  height: 145px;
+  font: 600 16px/24px "inter";
+}
+/* ###################################################################################################################################### */
+
+/* Section-5 :CTA Section */
+.section-5-image {
+  background: url("image/8116\ 1\ \(1\).png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+  width: 100%;
+  height: 505px;
+}
+
+.section-5-image article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(0 0 0 / 63%);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 858px;
+  height: 311px;
+  border-radius: 12px;
+  padding: 44px 0px;
+  text-align: center;
+  gap: 32px;
+}
+.section-5-image article h2 {
+  color: #fff;
+  width: 770px;
+  height: 51px;
+  font: 600 42px/50px "inter";
+}
+.section-5-image article p {
+  color: #fff;
+  width: 770px;
+  height: 140px;
+  font: 500 20px/28px "inter";
+}
+/* ###################################################################################################################################### */
+
+/* section-6:Heading and supporting text */
+
+.section-6 {
+  display: flex;
+  max-width: 1440px;
+  width: 100%;
+  background: rgba(248, 222, 248, 0.315);
+  padding: 80px 0px;
+  gap: 32px;
+}
+
+.section-6-Heading-text {
+  width: 358.67px;
+  height: 337px;
+  padding: 40px;
+}
+
+.section-6-Heading-text div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 56px;
+  height: 56px;
+  border-radius: 13px;
+  box-shadow: 0px 0px 0px 6px rgba(1, 134, 118, 0.23); /* استخدم rgba للشفافية */
+  background: #3cab90;
+  color: white;
+}
+
+.section-6-Heading-text div i {
+  font-size: larger;
+}
+
+.section-6-Heading-text h2 {
+  color: #101828;
+  width: 358px;
+  height: 153px;
+  font: 600 42px/50px "Inter", sans-serif;
+  letter-spacing: -2px;
+}
+
+.section-6-Heading-text p {
+  color: #475467;
+  width: 358px;
+  height: 84px;
+  font: 400 18px/28px "Inter", sans-serif;
+}
+
+.section-6-cardsGroup {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.section-6-cardsGroup div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #3cab8f15;
+  gap: 32px;
+  width: 300.67px;
+  height: 384px;
+  border-radius: 12px;
+  border: 1px solid #3cab90;
+  padding: 24px;
+  margin: 9px;
+}
+.section-6-cardsGroup .defrent-card {
+  height: 364px;
+  margin-bottom: 25px;
+}
+.section-6-cardsGroup div img {
+  background: rgba(60, 171, 144, 0.05);
+  width: 280.67px;
+  height: 60px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.section-6-cardsGroup div h2 {
+  color: #101828;
+  width: 310px;
+  height: 60px;
+  font: 600 20px/30px "Inter", sans-serif;
+}
+
+.section-6-cardsGroup div p {
+  color: #475467;
+  width: 310px;
+  height: 120px;
+  font: 400 16px/24px "Inter", sans-serif;
+}
+
+.section-6-cardsGroup div p span {
+  border-bottom: 1px solid #475467;
+}
+
+.section-6-cardsGroup button {
+  color: #3cab90;
+  background: none;
+  border: none;
+  width: 147px;
+  height: 145px;
+  font: 600 16px/24px "Inter", sans-serif;
+}
+/* ###################################################################################################################################### */
+
+/*Start Section 7:Our values */
+.section-7 {
+  display: flex;
+  flex-direction: column;
+  max-width: 1140px;
+  width: 100%;
+  padding: 40px 0px;
+  gap: 50px;
+  margin: 0 auto;
+}
+
+.section-7 article h2 {
+  text-align: center;
+  color: #101828;
+  width: 1140px;
+  height: 51px;
+  font: 600 42px/50px "inter";
+}
+.section-7 article p {
+  color: #475467;
+  width: 1140px;
+  height: 28px;
+  text-align: center;
+  font: 400 18px/28px "inter";
+}
+.section-7-cardsGroup {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 420px;
+  gap: 22px;
+}
+.section-7-cardsGroup div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 358.67px;
+  height: 420px;
+  border-radius: 12px;
+  padding-left: 20px;
+  border: 1px solid #3cab90;
+  background-color: #3cab8f15;
+}
+.section-7-cardsGroup div i {
+  color: #0cb19e;
+  width: 70px;
+  height: 70px;
+  font-size: 50px;
+}
+.section-7-cardsGroup div h2 {
+  color: #101828;
+  width: 152px;
+  height: 30px;
+  font: 600 20px/30px "inter";
+}
+.section-7-cardsGroup div p {
+  color: #475467;
+  width: 294px;
+  height: 216px;
+  font: 400 16px/24px "inter";
+}
+/* ###################################################################################################################################### */
+
+/*start Section8 :what they say about WOC */
+.section-8 {
+  display: flex;
+  width: 1140px;
+  height: 603px;
+  padding: 80px 80px;
+  gap: 32px;
+  margin: 0 auto;
+}
+.section-8 .leftCard {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 296px;
+  gap: 32px;
+}
+.section-8 .leftCard i {
+  color: #3cab90;
+  width: 58px;
+  height: 34px;
+  font-size: 70px;
+}
+.section-8 .leftCard h2 {
+  color: #1c1c1c;
+  width: 400px;
+  height: 128px;
+  font: 700 48px/64px "inter";
+}
+.section-8 .leftCard p {
+  color: #1c1c1c;
+  width: 400px;
+  height: 64px;
+  font: 400 18px/32px "inter";
+}
+
+.section-8 .rightCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 708px;
+  height: 443px;
+  border-radius: 24px;
+  padding: 40px 20px;
+  gap: 87px;
+  background-color: rgb(12, 177, 158, 6%);
+}
+.section-8 .rightCard .header {
+  display: flex;
+  justify-content: space-around;
+}
+.section-8 .rightCard .header p {
+  color: #3cab90;
+  height: 20px;
+  font: 700 16px/20px "inter";
+}
+.section-8 .rightCard .header span {
+  color: #57575777;
+  font-size: 28px;
+  font-weight: 800;
+}
+.section-8 .rightCard .header span .proSpan {
+  color: #000;
+}
+.section-8 .rightCard .parent-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-8 .rightCard p {
+  color: #101828;
+  width: 516px;
+  height: 144px;
+  font: 400 24px/36px "inter";
+}
+.section-8 .image-section {
+  display: flex;
+  align-items: center;
+  width: 302px;
+  height: 60px;
+  gap: 10px;
+}
+.section-8 .image-section div h2 {
+  color: #1c1c1c;
+  width: 125px;
+  height: 19px;
+  font: 700 16px/19px "inter";
+}
+.section-8 .image-section div p {
+  color: #1c1c1c;
+  width: 234px;
+  height: 19px;
+  font: 400 16px/19px "inter";
+}
+.section-8 .button-section {
+  width: 112px;
+  height: 48px;
+  display: flex;
+  gap: 16px;
+}
+.section-8 .button-section i {
+  width: 48px;
+  height: 48px;
+  font-size: 40px;
+  color: #000;
+}
+/* ###################################################################################################################################### */
+
+/* Footer */
+/* Footer Styles */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  background-color: #283646;
+  max-width: 1440px;
+  width: 100%;
+  height: 412px;
+  padding: 80px 0;
+}
+
+/* Footer Section 1 Styles */
+.footer-section-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1140px;
+  width: 100%;
+  height: 126px;
+}
+.footer-section-1 .img-list {
+  display: flex;
+  flex-direction: column;
+  width: 499px;
+  height: 126px;
+  gap: 38px;
+}
+.footer-section-1 img {
+  max-width: 185px;
+  width: 100%;
+  height: 64px;
+}
+.footer-section-1 ul {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  max-width: 499px;
+  width: 100%;
+  height: 24px;
+  gap: 40px;
+}
+
+.footer-secion-2 p {
+  color: #fff;
+  width: 238px;
+  height: 24px;
+  font: 400 16px/24px "inter";
+  letter-spacing: 0.3px;
+}
+.footer-secion-2 input {
+  background-color: #ffffff3a;
+  color: #fff;
+  width: 406px;
+  height: 48px;
+  border-radius: 38px;
+  outline: none;
+  border: 1px solid #b3bdc76e;
+  padding: 0px 0px 0px 20px;
+  font: 400 16px/24px "inter";
+  letter-spacing: 0.3px;
+}
+.footer-secion-2 button {
+  position: relative;
+  background-color: #ffbb1c;
+  color: white;
+  border: none;
+  right: 132px;
+  top: -1px;
+  height: 48px;
+  border-radius: 109px;
+  padding: 12px 34px;
+}
+
+footer hr {
+  width: 1140px;
+  height: 2px;
+  border: 1px solid #71777d;
+}
+.footer-section-3 {
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+  height: 16px;
+}
+.footer-section-3 ul {
+  width: 405px;
+  display: flex;
+}
+.footer-section-3 ul li {
+  color: #929292;
+  font: 400 12px/16px "inter";
+  letter-spacing: 0.26px;
+}
+.footer-section-3 p {
+  color: #929292;
+  font: 400 12px/16px "inter";
+  letter-spacing: 0.26px;
+}
