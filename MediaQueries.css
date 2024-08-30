@@ -460,6 +460,7 @@
   /* section 8 */
   .section-8 {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     height: 680px;
     padding: 80px 0px;
