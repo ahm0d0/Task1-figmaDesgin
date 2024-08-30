@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+html {
+  overflow-x: hidden;
+}
 body {
   max-width: 1442px;
   width: 100%;
